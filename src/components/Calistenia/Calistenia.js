@@ -17,8 +17,6 @@ import { ButtonToolbar, ButtonGroup, Button, InputGroup, FormControl, Container,
 
 export const Calistenia = () => {
 
-  var cart = new cart('[nombre del carro]');
-
   return (
   
     <div className='Fondo-app'>
@@ -58,6 +56,7 @@ export const Calistenia = () => {
                 <p></p>
                 <CardGroup>
                 <Card className='card'>
+  <Button variant="light" href='/Calistenia/Bandas_resistencia'>
     <Card.Img variant="top" src={Bandas} />
     <Card.Body>
       <Card.Title>Set de bandas de resistencia</Card.Title>
@@ -71,8 +70,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Calistenia/Rueda_abdominal'>
     <Card.Img variant="top" src={Rueda} />
     <Card.Body>
       <Card.Title>Rueda abdominal</Card.Title>
@@ -86,8 +87,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Calistenia/Barra_3_en_1'>
     <Card.Img variant="top" src={Barra3en1} />
     <Card.Body>
       <Card.Title>Barra 3 en 1</Card.Title>
@@ -101,6 +104,7 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+  </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -110,6 +114,7 @@ export const Calistenia = () => {
                 <Col>
                 <CardGroup>
   <Card>
+  <Button variant="light" href='/Calistenia/Miniparalela'>
     <Card.Img variant="top" src={Mini} />
     <Card.Body>
       <Card.Title>Miniparalelas</Card.Title>
@@ -123,8 +128,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Calistenia/Paralela'>
     <Card.Img variant="top" src={Paralelas} />
     <Card.Body>
       <Card.Title>Paralelas</Card.Title>
@@ -138,8 +145,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+    <Button variant="light" href='/Calistenia/Cinturon_para_lastre'>
     <Card.Img variant="top" src={Cinturon} />
     <Card.Body>
       <Card.Title>Cinturon para lastre</Card.Title>
@@ -153,6 +162,7 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -162,6 +172,7 @@ export const Calistenia = () => {
                 <Col>
                 <CardGroup>
   <Card>
+    <Button variant="light" href='/Calistenia/Anillas_de_entrenamiento'>
     <Card.Img variant="top" src={Anillas} />
     <Card.Body>
       <Card.Title>Anillas de entrenamiento</Card.Title>
@@ -175,8 +186,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+    <Button variant="light" href='/Calistenia/Barra_de_dominadas_para_marco'>
     <Card.Img variant="top" src={Dominadas} />
     <Card.Body>
       <Card.Title>Barra de dominada para marco</Card.Title>
@@ -190,8 +203,10 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+    <Button variant="light" href='/Calistenia/Paralela_para_flexiones'>
     <Card.Img variant="top" src={Flexiones} />
     <Card.Body>
       <Card.Title>Paralela para flexiones</Card.Title>
@@ -205,6 +220,7 @@ export const Calistenia = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>

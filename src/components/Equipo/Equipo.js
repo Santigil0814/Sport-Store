@@ -55,6 +55,7 @@ export const Equipo = () => {
                 <p></p>
                 <CardGroup>
                 <Card className='card'>
+  <Button variant="light" href='/Calistenia/Bandas_resistencia'>
     <Card.Img variant="top" src={Bandas} />
     <Card.Body>
       <Card.Title>Set de bandas de resistencia</Card.Title>
@@ -68,8 +69,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card className='card'>
+  <Button variant="light" href='/Gym/Kit_de_mancuernas_de_20KG'>
     <Card.Img variant="top" src={Mancuernas} />
     <Card.Body>
       <Card.Title>Kit de mancuernas de 20KG</Card.Title>
@@ -83,8 +86,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+    <Button variant="light" href='/Calistenia/Paralela_para_flexiones'>
     <Card.Img variant="top" src={Flexiones} />
     <Card.Body>
       <Card.Title>Paralela para flexiones</Card.Title>
@@ -98,6 +103,7 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -107,6 +113,8 @@ export const Equipo = () => {
                 <Col>
                 <CardGroup>
   <Card>
+  <Button variant="light" href='/Calistenia/Rueda_abdominal'>
+  
     <Card.Img variant="top" src={Rueda} />
     <Card.Body>
       <Card.Title>Rueda abdominal</Card.Title>
@@ -120,8 +128,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Gym/Banca_de_pesas'>
     <Card.Img variant="top" src={Flybird} />
     <Card.Body>
       <Card.Title>Banca de pesas</Card.Title>
@@ -135,8 +145,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+  </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Calistenia/Barra_3_en_1'>
     <Card.Img variant="top" src={Barra3en1} />
     <Card.Body>
       <Card.Title>Barra 3 en 1</Card.Title>
@@ -150,6 +162,7 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+  </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -158,7 +171,8 @@ export const Equipo = () => {
               <Row>
                 <Col>
                 <CardGroup>
-    <Card>
+  <Card>
+  <Button variant="light" href='/Gym/Marcy_gimnasio_en_casa'>
     <Card.Img variant="top" src={Marcy} />
     <Card.Body>
       <Card.Title>Marcy - Gimnsaio en casa</Card.Title>
@@ -172,8 +186,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Calistenia/Cinturon_para_lastre'>
     <Card.Img variant="top" src={Cinturon} />
     <Card.Body>
       <Card.Title>Cinturon para lastre</Card.Title>
@@ -187,8 +203,10 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+  <Button variant="light" href='/Gym/Total_Gym_APEX'>
     <Card.Img variant="top" src={APEX} />
     <Card.Body>
       <Card.Title>Total Gym APEX</Card.Title>
@@ -202,6 +220,7 @@ export const Equipo = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>

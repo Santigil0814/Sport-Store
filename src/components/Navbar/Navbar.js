@@ -20,9 +20,9 @@ const Barra = () => {
             <Nav.Link href="/Equipo">EQUIPO</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/InicioSesion">Inicio de sesión</Nav.Link>
-            <Nav.Link eventKey={2} href="">
-              Carrito
+            <Nav.Link href="/InicioSesion">INICIO DE SESIÓN</Nav.Link>
+            <Nav.Link eventKey={2} href="/Contacto">
+              CONTÁCTENOS
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -12,7 +12,7 @@ export const Body = () => {
         <CardGroup className='Cards'>
   <Card className='card'>
     
-  <Button variant="light" href=''>
+  <Button variant="light" href='/Calistenia/Bandas_resistencia'>
     <Card.Img variant="top" src={Bandas} />
     <Card.Body>
       <Card.Title>Set de bandas de resistencia</Card.Title>
@@ -29,12 +29,13 @@ export const Body = () => {
     </Button>{' '}
   </Card>
   <Card className='card'>
+  <Button variant="light" href='/Gym/Kit_de_mancuernas_de_20KG'>
     <Card.Img variant="top" src={Mancuernas} />
     <Card.Body>
       <Card.Title>Kit de mancuernas de 20KG</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Kit de mancuerna adaptable hasta los 20 KG.
+        <p>$ 185.590</p>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -42,6 +43,7 @@ export const Body = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card className='card'>
     <Card.Img className='Proteina' variant="top" src={Proteina} />

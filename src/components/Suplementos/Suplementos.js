@@ -48,6 +48,7 @@ export const Suplementos = () => {
                 <Col>
                 <CardGroup>
                 <Card className='card'>
+                <Button variant="light" href='/Suplementos/Body_Fortress'>
     <Card.Img variant="top" src={Proteina} />
     <Card.Body>
     <Card.Title>Body Fortress</Card.Title>
@@ -61,8 +62,11 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+    
+  <Button variant="light" href='/Suplementos/Optimum_Nutritio_Estandar_dorado'>
     <Card.Img variant="top" src={Whey} />
     <Card.Body>
       <Card.Title>Optimum Nutritio Estándar dorado</Card.Title>
@@ -76,8 +80,10 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+                <Button variant="light" href='/Suplementos/Polvo_micronizado_de_creatina'>
     <Card.Img variant="top" src={Creatina} />
     <Card.Body>
       <Card.Title>Polvo micronizado de creatina</Card.Title>
@@ -91,6 +97,7 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -100,6 +107,7 @@ export const Suplementos = () => {
                 <Col>
                 <CardGroup>
   <Card>
+                <Button variant="light" href='/Suplementos/L-ARGININE'>
     <Card.Img variant="top" src={Larginine} />
     <Card.Body>
       <Card.Title>L-ARGININE</Card.Title>
@@ -113,8 +121,10 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+                <Button variant="light" href='/Suplementos/Barras_de_proteina_de_suero'>
     <Card.Img variant="top" src={Gatorade} />
     <Card.Body>
       <Card.Title>Barras de proteína de suero</Card.Title>
@@ -128,8 +138,10 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+                <Button variant="light" href='/Suplementos/Conjunto_de_creatina_y_preentrenamiento'>
     <Card.Img variant="top" src={C4} />
     <Card.Body>
       <Card.Title>Conjunto de creatina y preentrenamiento</Card.Title>
@@ -143,6 +155,7 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>
@@ -152,6 +165,7 @@ export const Suplementos = () => {
                 <Col>
                 <CardGroup>
   <Card>
+  <Button variant="light" href='/Suplementos/Galleta_de_proteinas_Ques_Nutrition'>
     <Card.Img variant="top" src={Galleta} />
     <Card.Body>
       <Card.Title>Galleta de proteínas Ques Nutrition</Card.Title>
@@ -165,8 +179,10 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+                <Button variant="light" href='/Suplementos/Polvo_electrolitico_DripDrop'>
     <Card.Img variant="top" src={Electrolitico} />
     <Card.Body>
       <Card.Title>Polvo electrolítico DripDrop</Card.Title>
@@ -180,8 +196,10 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
   <Card>
+                <Button variant="light" href='/Suplementos/Isopure_zero_carb'>
     <Card.Img variant="top" src={Isopure} />
     <Card.Body>
       <Card.Title>Isopure zero carb</Card.Title>
@@ -195,6 +213,7 @@ export const Suplementos = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
                 </Col>
