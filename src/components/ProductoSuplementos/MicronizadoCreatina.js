@@ -36,13 +36,10 @@ export const MicronizadoCreatina = () => {
         <Container className='bodyProductos'>
             <Row>
                 <Col md='9'>
-                  <center>
                       <img 
                       className='fotoBarra3_1'
                       src={creatina}
                       />
-                  </center>
-                  
                 </Col>
                 <Col md="3">
                     <p></p>

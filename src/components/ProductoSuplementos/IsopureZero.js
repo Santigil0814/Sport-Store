@@ -35,13 +35,10 @@ export const IsopureZero = () => {
         <Container className='bodyProductos'>
             <Row>
                 <Col md='9'>
-                  <center>
                       <img 
                       className='fotoBarra3_1'
                       src={isopure}
                       />
-                  </center>
-                  
                 </Col>
                 <Col md="3">
                     <p></p>

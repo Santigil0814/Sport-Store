@@ -35,13 +35,10 @@ export const PolvoElectrolítico = () => {
         <Container className='bodyProductos'>
             <Row>
                 <Col md='9'>
-                  <center>
                       <img 
                       className='fotoBarra3_1'
                       src={electrolitico}
                       />
-                  </center>
-                  
                 </Col>
                 <Col md="3">
                     <p></p>
