@@ -1,0 +1,10 @@
+.Barra {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Logo {
+    width: 8%;
+}

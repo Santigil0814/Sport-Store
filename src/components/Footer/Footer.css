@@ -1,0 +1,21 @@
+.Footer {
+    margin-top: auto;
+    background-color: #212529;
+    color: #ffffff8c;
+    width: 100%;
+    position: absolute;
+}
+
+.Footer h6 {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Footer p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+}

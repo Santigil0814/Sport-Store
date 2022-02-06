@@ -1,0 +1,9 @@
+.Fondo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.back_carousel {
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
