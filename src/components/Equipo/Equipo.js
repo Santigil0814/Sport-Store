@@ -73,7 +73,7 @@ export const Equipo = () => {
   </Card>
   <Card className='card'>
   <Button variant="light" href='/Gym/Kit_de_mancuernas_de_20KG'>
-    <Card.Img variant="top" src={Mancuernas} />
+    <Card.Img className='mancuerna' variant="top" src={Mancuernas} />
     <Card.Body>
       <Card.Title>Kit de mancuernas de 20KG</Card.Title>
       <Card.Text>
@@ -90,7 +90,7 @@ export const Equipo = () => {
   </Card>
   <Card>
     <Button variant="light" href='/Calistenia/Paralela_para_flexiones'>
-    <Card.Img variant="top" src={Flexiones} />
+    <Card.Img className='flexiones' variant="top" src={Flexiones} />
     <Card.Body>
       <Card.Title>Paralela para flexiones</Card.Title>
       <Card.Text>

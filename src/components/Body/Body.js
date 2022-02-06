@@ -10,27 +10,26 @@ export const Body = () => {
     <div>
     <h3 className='titulo'>LO MÁS VENDIDO</h3>
         <CardGroup className='Cards'>
-  <Card className='card'>
-    
+        <Card className='card'>
   <Button variant="light" href='/Calistenia/Bandas_resistencia'>
     <Card.Img variant="top" src={Bandas} />
     <Card.Body>
       <Card.Title>Set de bandas de resistencia</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        Set de bandas elasticas para activacion e inisación en calistenia.
+        <p>$ 33.800</p>
       </Card.Text>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <Button variant="link" href=''>Ver más</Button>
+      <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
-    </Button>{' '}
+    </Button>
   </Card>
   <Card className='card'>
   <Button variant="light" href='/Gym/Kit_de_mancuernas_de_20KG'>
-    <Card.Img variant="top" src={Mancuernas} />
+    <Card.Img className='mancuerna' variant="top" src={Mancuernas} />
     <Card.Body>
       <Card.Title>Kit de mancuernas de 20KG</Card.Title>
       <Card.Text>
