@@ -46,6 +46,7 @@ export const Body = () => {
     </Button>
   </Card>
   <Card className='card'>
+  <Button variant="light" href='/Suplementos/Body_Fortress'>
     <Card.Img className='Proteina' variant="top" src={Proteina} />
     <Card.Body>
       <Card.Title>Body Fortress</Card.Title>
@@ -59,6 +60,7 @@ export const Body = () => {
       <Button variant="link">Ver más</Button>
       </small>
     </Card.Footer>
+    </Button>
   </Card>
 </CardGroup>
     </div>
