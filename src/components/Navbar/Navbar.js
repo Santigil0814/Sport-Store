@@ -7,7 +7,7 @@ const Barra = () => {
   
   return (
     <div className='nav'>
-      <Navbar className='Barra' collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar className='Barra' collapseOnSelect expand="lg" bg="dark" variant="dark" style="widht: 100%">
         <img
           className="Logo"
           src={Logo}
